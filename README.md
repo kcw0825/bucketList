@@ -41,4 +41,17 @@ to record all tasks in your daily life.</p>
   
   
   
+  </br>
+  <h2><b>Functionalities of Apps</b></h2>
+  </br>
   
+  <p></p>
+
+
+
+  </br>
+  <h2><b>How To Setup The Development Environment</b></h2>
+  </br>
+  
+  <p></p>
+
