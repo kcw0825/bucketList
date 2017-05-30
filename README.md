@@ -5,13 +5,13 @@
 to record all tasks in your daily life.</p>
 
 
-  </br><h2><b>Team Members</b></h2>
+  </br><h2><b>Developers Team Members</b></h2>
   
   </br>
   
 
   
-  <table style="width:70%">
+  <table>
   <tr>
   <th>MATRIC NO.</th>
   <th>NAME</th>
@@ -38,3 +38,7 @@ to record all tasks in your daily life.</p>
   </tr>
 
   </table>
+  
+  
+  
+  
