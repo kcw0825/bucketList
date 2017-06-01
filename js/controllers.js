@@ -8,10 +8,10 @@ function ($scope, $stateParams) {
 
 }])
    
-.controller('bucketListCtrl', ['$scope', '$stateParams', '$compile',// The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('bucketListCtrl', ['$scope', '$stateParams', '$compile','$cordovaLocalNotification', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $cordovaSQLite, $compile) {
+function ($scope, $cordovaSQLite, $compile, $cordovaLocalNotification) {
 
 
 $("#bucketList-button2").click( function(){
@@ -119,6 +119,11 @@ var strSqlFetch="SELECT * FROM myData";
 });
 
 
+    
+
+    
+
+ 
 	
 
 }])
@@ -139,7 +144,7 @@ $.ajax({
 		},
 		success:function(response)
 		{
-			alert("Connected to Server !! Date & Time fetched");
+			$('.connected').stop().fadeIn(400).delay(2000).fadeOut(400);
 			
 			var now = new Date(response.currDate);
 			var day = ("0" + now.getDate()).slice(-2);
@@ -165,7 +170,7 @@ $.ajax({
 		},
 		error:function(response)
 		{
-			alert("Unable to connect to server.. Getting mobile date & time");
+			$('.disconnected').stop().fadeIn(400).delay(2000).fadeOut(400);
 			
 			var now = new Date();
 			var day = ("0" + now.getDate()).slice(-2);
@@ -228,7 +233,7 @@ $("#addItem-button1").click(function(){
 		},
 		error:function(response)
 		{
-			alert("Unable to connect to server.. Getting mobile date & time");
+			
 			
 			var now = new Date();
 			var day = ("0" + now.getDate()).slice(-2);
@@ -273,8 +278,6 @@ $("#addItem-button1").click(function(){
 		alert("Fail! Cannot save... " + error);
 	});
 	});
-	
-
 	
 	$("#expName").val("");
 	
