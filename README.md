@@ -40,9 +40,9 @@
   </br>
   <h2><b>Functionalities of Apps</b></h2>
   </br>
-  
-  <ul>
   <p><b>This apps provided with the functions stated below:</b></p>
+  <ul>
+ 
   <br>
   <li>Add tasks into the bucket list.</li>
   <li>Finish tasks in the bucket list.</li>
@@ -78,7 +78,25 @@
 4)	Install Ionic Framework<br>
 -	npm install -g cordova ionic<br>
 -	Mean while waiting for ionic installation to finish, sign up Ionic account at: https://creator.ionic.io/app/login<br>
+5) Start an ionic project<br>
+- Open up command prompt and navigate to the previous Cordova folder<br>
+- Run: ionic start "projectName"<br>
+- Run: cd "projectName"<br>
+6) Add android platform into ionic project<br>
+- Run: cordova platform add android<br>
+- Run: cordova run android to build the application<br>
+7) Add the logical process of SQLite<br>
+- Run: npm install –g bower<br>
+- Run: bower install ngCordova<br><br>
 
+Now open the index.html and add the ng-cordova.min.js<br>
+
+<div style="border-style: ridge;">
+<!-- cordova script (this will be a 404 during development) --><br>
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script><br>
+    <script src="cordova.js"></script><br>
+
+</div>
 
  </p>
 
