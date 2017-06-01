@@ -41,7 +41,11 @@
   <h2><b>Functionalities of Apps</b></h2>
   </br>
   
-  <p><ul>Add, delete and update tasks</ul></p>
+  <ul>
+  <li>
+  Add items or tasks into the bucket list
+  </li>
+  </ul>
 
 
 
