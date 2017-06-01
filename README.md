@@ -59,7 +59,26 @@
   
   <p>Before start writing the hybrid application, you need to setup your PC (for Window) :</p>
   
-  <ul>
-  <li>Setup environment variable</li>
-  </ul>
+ <p>
+ 1)	Setup environment variable<br>
+-	Right click to My Computer >> Properties >> Advance System Settings >> Environment Variable >> Choose Path and click Edit >> Add :<br>
+-	;<your_sdkPath>\android-sdks\tools ;<your_sdkPath>\android-sdks\platform-tools<br>
+-	Click OK >> Click Apply<br>
+2)	Install Node.js<br>
+-	Download the Node.js at https://nodejs.org/en/<br>
+-	Run the node-v*.*.*.msi installer<br>
+-	After installation finish, run command prompt (run as administrator) <br>
+-	Run:  node –v. By right you should be getting the version of the Node.js <br>
+3)	Install Cordova<br>
+-	After successful Node installation, run:  npm install –g cordova<br>
+-	Create a Cordova project folder by running: <br>
+-	cordova create your_project_name<br>
+-	cd your_project_name<br>
+-	cordova platform add android<br>
+4)	Install Ionic Framework<br>
+-	npm install -g cordova ionic<br>
+-	Mean while waiting for ionic installation to finish, sign up Ionic account at: https://creator.ionic.io/app/login<br>
+
+
+ </p>
 
