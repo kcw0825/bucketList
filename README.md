@@ -8,7 +8,7 @@
   </br>
 
   <table>
-  <tr bgcolor="#FF0000">
+  <tr>
   <th>MATRIC NO.</th>
   <th>NAME</th>
   </tr>
