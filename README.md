@@ -41,7 +41,7 @@
   <h2><b>Functionalities of Apps</b></h2>
   </br>
   
-  <p></p>
+  <p><ul>Add, delete and update tasks</ul></p>
 
 
 
