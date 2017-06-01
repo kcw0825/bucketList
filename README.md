@@ -60,6 +60,6 @@
   <p>Before start writing the hybrid application, you need to setup your PC (for Window) :</p>
   
   <ul>
-  <ol>Setup environment variable</ol>
+  <li>Setup environment variable</li>
   </ul>
 
