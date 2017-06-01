@@ -44,9 +44,11 @@
   <ul>
   <p><b>This apps provided with the functions stated below:</b></p>
   <br>
-  <li>Add items or tasks into the bucket list</li>
-  <li>Add items or tasks into the bucket list</li>
-  <li>Add items or tasks into the bucket list</li>
+  <li>Add tasks into the bucket list</li>
+  <li>Finish tasks in the bucket list</li>
+  <li>Update tasks name from the bucket list</li>
+  <li>View completed tasks (History)</li>
+  <li>Date & Time of tasks will automatic filled based on server date and time or from mobile if no internet access</li>
   </ul>
 
 
