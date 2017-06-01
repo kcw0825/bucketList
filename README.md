@@ -88,7 +88,7 @@
 7) Add the logical process of SQLite<br>
 - Run: npm install –g bower<br>
 - Run: bower install ngCordova<br><br>
-
+- Run: cordova plugin add cordova-sqlite-storage<br>
 Now open the index.html and add the ng-cordova.min.js<br><br>
 
 
@@ -96,7 +96,7 @@ Now open the index.html and add the ng-cordova.min.js<br><br>
     <script src="lib/ngCordova/dist/ng-cordova.min.js"></script><br>
     <script src="cordova.js"></script><br>
 
-- Run: cordova plugin add cordova-sqlite-storage<br>
+
 
  </p>
 
