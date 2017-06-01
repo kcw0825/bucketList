@@ -89,14 +89,14 @@
 - Run: npm install –g bower<br>
 - Run: bower install ngCordova<br><br>
 
-Now open the index.html and add the ng-cordova.min.js<br>
+Now open the index.html and add the ng-cordova.min.js<br><br>
 
-<div style="border-style: ridge;">
-<!-- cordova script (this will be a 404 during development) --><br>
+
+<-- cordova script (this will be a 404 during development) --><br>
     <script src="lib/ngCordova/dist/ng-cordova.min.js"></script><br>
     <script src="cordova.js"></script><br>
 
-</div>
+
 
  </p>
 
