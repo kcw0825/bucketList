@@ -40,7 +40,7 @@
   </br>
   <h2><b>Functionalities of Apps</b></h2>
   </br>
-  <p><b>This apps provided with the functions stated below:</b></p>
+  <p><b>This apps function as a long-term to-do-list. It is provided with the functions stated below:</b></p>
   <ul>
  
   <br>
