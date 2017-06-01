@@ -94,9 +94,9 @@ Now open the index.html and add the ng-cordova.min.js<br><br>
 
 <-- cordova script (this will be a 404 during development) --><br>
     <script src="lib/ngCordova/dist/ng-cordova.min.js"></script><br>
-    <script src="cordova.js"></script><br>
+    <script src="cordova.js"></script><br><br>
 
-
+<b>You can start to build ionic project</b><br>
 
  </p>
 
