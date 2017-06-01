@@ -42,8 +42,8 @@
   </br>
   
   <ul>
-  <p>This apps provided with the functions stated below:</p>
-  
+  <p><b>This apps provided with the functions stated below:</b></p>
+  <br>
   <li>Add items or tasks into the bucket list</li>
   <li>Add items or tasks into the bucket list</li>
   <li>Add items or tasks into the bucket list</li>
