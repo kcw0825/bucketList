@@ -97,6 +97,6 @@ Now open the index.html and add the ng-cordova.min.js<br><br>
     <script src="cordova.js"></script><br><br>
 
 <b>You can start to build ionic project!!!</b><br>
-
+  
  </p>
 
