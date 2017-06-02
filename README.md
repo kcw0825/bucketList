@@ -1,7 +1,7 @@
 <h3><b>Bucket List</b></h3>
 </br>
 
-<p>Good day, we are degree studens from Fakulti Teknologi Maklumat dan Komunikasi (FTMK), Universiti Teknikal Malaysia Melaka (UTeM).  This project is done under subject BITP3453 MOBILE APPLICATION DEVELOPMENT. Bucket List is a simple project which involved hybrid language in the mobile application development. Bucket List apps is developed to assists people to record all the tasks in their daily life.</p>
+<p>Good day, we are degree studens from Fakulti Teknologi Maklumat dan Komunikasi (FTMK), Universiti Teknikal Malaysia Melaka (UTeM).  This project is done under the subject BITP3453 MOBILE APPLICATION DEVELOPMENT. Bucket List is a simple project which involved hybrid language in the mobile application development. Bucket List apps is developed to assists people to record all the tasks in their daily life.</p>
 
   </br><h2><b>Developers Team Members</b></h2>
   
