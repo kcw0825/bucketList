@@ -67,8 +67,8 @@ var strSqlFetch="SELECT * FROM myData";
 			transaction.executeSql(strSqlDel);
 			});
 			
-			var strSqlSave = "INSERT INTO myData(exp_name, exp_date, exp_time) VALUES (?,?,?)";
-			myDB1.transaction(function(transaction){
+			var strSqlSave = "INSERT INTO myData1(exp_name, exp_date, exp_time) VALUES (?,?,?)";
+			myDB.transaction(function(transaction){
 				transaction.executeSql(strSqlSave,[boxN,boxDate,boxTime], function(tx,result){
 				
 				 
@@ -299,9 +299,9 @@ function ($scope, $stateParams) {
 function ($scope, $cordovaSQLite) {
 
 var bb="";
-var strSqlFetch="SELECT * FROM myData";
+var strSqlFetch="SELECT * FROM myData1";
 	
-		myDB1.transaction(function(transaction){
+		myDB.transaction(function(transaction){
 		transaction.executeSql(strSqlFetch,[], function(tx,result){
 	
 			var aa, i, len = result.rows.length;
@@ -326,9 +326,9 @@ var strSqlFetch="SELECT * FROM myData";
 
 $("#history-button1").click(function(){
 var bb="";
-var strSqlFetch="SELECT * FROM myData";
+var strSqlFetch="SELECT * FROM myData1";
 	
-		myDB1.transaction(function(transaction){
+		myDB.transaction(function(transaction){
 		transaction.executeSql(strSqlFetch,[], function(tx,result){
 	
 			var aa, i, len = result.rows.length;
@@ -358,8 +358,8 @@ $("#history-button3").click(function(){
 		var box1= confirm("Are You Sure?");
 		if (box1===true){
             $( "div#history-markdown4" ).empty();              
-			var strSqlDel1="DELETE FROM myData";	
-			myDB1.transaction(function(transaction){
+			var strSqlDel1="DELETE FROM myData1";	
+			myDB.transaction(function(transaction){
 			transaction.executeSql(strSqlDel1);
 			});
 	}
