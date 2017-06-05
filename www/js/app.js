@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-var myDB, myDB1;
+var myDB;
 angular.module('app', ['ionic', 'ngCordova', 'app.controllers', 'app.routes', 'app.directives','app.services',])
 
 .config(function($ionicConfigProvider, $sceDelegateProvider){
@@ -38,9 +38,9 @@ angular.module('app', ['ionic', 'ngCordova', 'app.controllers', 'app.routes', 'a
 		});
 	});
 	
-	myDB1 = $cordovaSQLite.openDB({name:"dbMyData1.db", location:'default'});
-	myDB1.transaction(function(transaction){
-		transaction.executeSql('CREATE TABLE IF NOT EXISTS myData(exp_id INTEGER primary key, exp_name VARCHAR, exp_date DATE, exp_time VARCHAR)', [],
+	//myDB1 = $cordovaSQLite.openDB({name:"dbMyData1.db", location:'default'});
+	myDB.transaction(function(transaction){
+		transaction.executeSql('CREATE TABLE IF NOT EXISTS myData1(exp_id INTEGER primary key, exp_name VARCHAR, exp_date DATE, exp_time VARCHAR)', [],
 		function(tx, result){
 			//alert("Table created successfully!");
 		},
