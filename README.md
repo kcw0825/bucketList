@@ -98,4 +98,6 @@ Now open the index.html and add the ng-cordova.min.js<br><br>
 
 <b>You can start to build ionic project!!!</b><br>
 
+<b>The project had been modified where the database been reduced to only one (Why I used two before....zzz)</b><br>
+
  </p>
